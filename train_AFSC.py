@@ -182,10 +182,10 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', action='store', type=int, default=800)
     parser.add_argument('--gpu_id', action='store', type=int, default=0)
     parser.add_argument('--data_path', action='store', type=str,
-                        default=r'./mvtec_anomaly_detection/')  # 最后要‘/’
+                        default=r'./mvtec_anomaly_detection/') 
     parser.add_argument('--checkpoint_path', action='store', type=str, default='./checkpoint/')
-    parser.add_argument('--checkpoint_interval', type=int, default=200)  # 每隔几个epoch保存一下模型
-    parser.add_argument('--image_visual_interval', type=int, default=200)  # 每隔几个step显示一下
+    parser.add_argument('--checkpoint_interval', type=int, default=200)
+    parser.add_argument('--image_visual_interval', type=int, default=200)
     parser.add_argument('--fix_epoch', type=int, default=400)
     parser.add_argument('--visualize', action='store_true')
     parser.add_argument('--name', action='store', type=str, default='AFSC_6e_v1')
