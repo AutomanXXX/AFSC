@@ -1,3 +1,3 @@
 # AFSC
 The code implementation of the AFSC.
-![image](fig1.png)
+![image](fig2.png)
